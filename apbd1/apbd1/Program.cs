@@ -15,3 +15,6 @@ static double GetAvg(int[] numbers)
 
     return s / numbers.Length;
 }
+
+int[] a = new[] { 1, 2, 3, 4, 5 };
+Console.WriteLine(GetAvg(a));
