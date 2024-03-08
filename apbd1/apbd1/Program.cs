@@ -4,3 +4,14 @@ for (int i = 0; i < 5; i++)
     Console.WriteLine(i);
 }
 Console.WriteLine("Finished");
+
+static double GetAvg(int[] numbers)
+{
+    double s=0;
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        s+=numbers[i];
+    }
+
+    return s / numbers.Length;
+}
