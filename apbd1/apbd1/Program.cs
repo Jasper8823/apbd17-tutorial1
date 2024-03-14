@@ -5,15 +5,15 @@ for (int i = 0; i < 5; i++)
 }
 Console.WriteLine("Finished");
 
-static double GetAvg(int[] numbers)
+static double GetAvg(int[] numbers1)
 {
     double s=0;
-    for (int i = 0; i < numbers.Length; i++)
+    for (int i = 0; i < numbers1.Length; i++)
     {
-        s+=numbers[i];
+        s+=numbers1[i];
     }
 
-    return s / numbers.Length;
+    return s / numbers1.Length;
 }
 
 int[] a = new[] { 1, 2, 3, 4, 5 };
